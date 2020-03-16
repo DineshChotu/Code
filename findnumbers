@@ -1,0 +1,32 @@
+public class Array(){
+public int[] Number(int a[],int b[])
+{
+int result =new int[2];
+int x=0;
+int lemgtha= a.length;
+int lenghtb= b.length;
+for(int i=0,j=0;i<lengtha && j<lenghtb;)
+{
+if(a[i]==b[j])
+{
+result[x]=a[i];
+x++;
+i++;
+j++;
+}
+else if(a[i]<b[j])
+i++;
+else
+j++;
+if(k>=2)
+break;
+}
+return result;
+}
+public static void main(String arges[])
+{
+int a[]={1,2,3,4,5};
+int b[]={1,3,5,7,9};
+Array z= new Array();
+SYstem.out.println(Arrays.toString(z.findNumber(a,b));
+}
