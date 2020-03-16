@@ -1,0 +1,18 @@
+
+public String Greeting()
+{
+int hour = localDateTime.now().gethour():
+if(hour<=12)
+return "God morning";
+else if(hour<16)
+return "Good Afternoon"
+else if(hour<18)
+return "Good Evening"
+else 
+return "good night";
+}
+public static void main(String[] args)
+{
+Greeting g= new Greeting();
+System.out.println(g.getGreeting());
+}
